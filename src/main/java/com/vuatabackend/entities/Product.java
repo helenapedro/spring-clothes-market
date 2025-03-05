@@ -54,10 +54,10 @@ public class Product {
     private List<String> imageUrls;
 
     public enum Category {
-        MENS_WEAR, WOMENS_WEAR, KIDS_WEAR, ACCESSORIES, FOOTWEAR
+        ROUPA_MASCULINA, ROUPA_FEMININA, ROUPA_INFANTIL, ACCESSORIOS, SAPATOS
     }
 
     public enum Condition {
-        NEW, LIKE_NEW, GOOD, FAIR, USED
+        NOVO, COMO_NOVO, USADO, MUITO_USADO
     }
 }
